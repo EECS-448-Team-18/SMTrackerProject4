@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+body {
+  background-color: #000000;
+  color: white;
+  font-family: sans-serif;
+}
+  
+header,
+form {
+  
+
+}
+
+form input, form button {
+  padding: 0.5rem;
+  border: none;
+  background: white;
+}
+
+form button {
+  color:black;
+  background: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color:black;
+  color: white; 
+}
+
+.sm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sm-List {
+  list-style: none;
+}
+
+.sm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color: black;
+
+}
+
+.todo li{
+  flex: 1;
+
+}
+
+.trash-btn{
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.sm-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash {
+  pointer-events: none;
+}
