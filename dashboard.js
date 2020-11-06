@@ -1,5 +1,6 @@
 //Selector
 const smInput = document.querySelector(".sm-input");
+const link = document.querySelector(".sm-url");
 const smButton = document.querySelector(".sm-button");
 const smList = document.querySelector(".sm-list");
 
@@ -28,7 +29,7 @@ function addSm(event) {
   
   smList.appendChild(smDiv);
   smInput.value = "";
-  smList.value = "";
+  link.value = "";
 }
 
 function deleteCheck(e){
