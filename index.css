@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 body {
@@ -14,7 +14,10 @@ header {
   font-size: 1rem;
 }
 
-
+body {
+  background-image: url("https://media.discordapp.net/attachments/753439371272912896/774480386049966130/pngtree-social-media-background-png-image_3550265.jpg?width=591&height=468");
+  /*background-color: #cccccc;*/
+ }
 
 /* .button {
   background-color: #6563ff;
@@ -31,4 +34,3 @@ button:hover {
   background-color: #ffffff;
   color: #000000;
 } */
-
