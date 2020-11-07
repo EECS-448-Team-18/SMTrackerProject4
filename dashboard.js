@@ -28,6 +28,7 @@ function addSm(event) {
   
   smList.appendChild(smDiv);
   smInput.value = "";
+  smList.value = "";
 }
 
 function deleteCheck(e){
