@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "SMTrackerEECSTeam18",
+    "description": "SocialMediaTracker, a time mangement app for all your social media, made by EECS448 Team 18 Abhigyan Saxena,Linh Nguyen, Achyul Paudel, Evelyn Thomas and Xiaoyi Lu",
+    "short_name": "smtracker",
+    "version": "1.0.0",
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon" : "images/icon_128.png"
+    },
+    "icons": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "background": {
+      "scripts": [
+        "js/background.js"
+      ]
+    },
+    "permissions": [
+      "storage",
+      "notifications",
+      "tabs"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }
+  
