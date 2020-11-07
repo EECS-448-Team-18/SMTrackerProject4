@@ -9,12 +9,6 @@ body {
   color: white;
   font-family: sans-serif;
 }
-  
-header,
-form {
-  
-
-}
 
 form input, form button {
   padding: 0.5rem;
@@ -69,3 +63,11 @@ form button:hover {
 .fa-trash {
   pointer-events: none;
 }
+
+.completed{
+  border:6px solid tomato ;
+  }
+
+.box{
+  border:60px solid tomato ;
+  }

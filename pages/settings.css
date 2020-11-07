@@ -10,3 +10,9 @@ body {
   color: white;
   font-family: sans-serif;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white; 
+}
+

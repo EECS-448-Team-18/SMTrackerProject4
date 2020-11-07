@@ -1,5 +1,6 @@
 //Selector
 const smInput = document.querySelector(".sm-input");
+const link = document.querySelector(".sm-url");
 const smButton = document.querySelector(".sm-button");
 const smList = document.querySelector(".sm-list");
 
@@ -21,6 +22,22 @@ function addSm(event) {
   newSm.classList.add('sm-item');
   smDiv.appendChild(newSm);
 
+  // SLIDER
+  // const myInput = document.createElement('input');
+  // myInput.setAttribute("type", "checkbox");
+  // const slider = document.createElement('span');
+  // slider.classList.add('slider');
+  // const Switch = document.createElement('label');
+  // Switch.classList.add('switch');
+  // Switch.appendChild(myInput);
+  // Switch.appendChild(slider);
+  // smDiv.appendChild(Switch);
+
+  const box = document.createElement('input');
+  box.setAttribute("type", "checkbox");
+  box.classList.add("box");
+  smDiv.appendChild(box);
+
   const trashButton = document.createElement('button');
   trashButton.innerHTML = '<i class="fas fa-trash"></i>';
   trashButton.classList.add("trash-btn");
@@ -28,8 +45,12 @@ function addSm(event) {
   
   smList.appendChild(smDiv);
   smInput.value = "";
-  smList.value = "";
+  link.value = "";
 }
+//stop timing of social media
+$('.sm').on("click", "input", function() {
+  $(this).toggleClass("completed");
+});
 
 function deleteCheck(e){
     // console.log(e.target);
