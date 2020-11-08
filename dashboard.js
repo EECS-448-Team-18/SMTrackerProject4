@@ -1,5 +1,6 @@
 //Selector
 const smInput = document.querySelector(".sm-input");
+const link = document.querySelector(".sm-url");
 const smButton = document.querySelector(".sm-button");
 const smList = document.querySelector(".sm-list");
 
@@ -21,6 +22,11 @@ function addSm(event) {
   newSm.classList.add('sm-item');
   smDiv.appendChild(newSm);
 
+  const box = document.createElement('input');
+  box.setAttribute("type", "checkbox");
+  box.classList.add("box");
+  smDiv.appendChild(box);
+
   const trashButton = document.createElement('button');
   trashButton.innerHTML = '<i class="fas fa-trash"></i>';
   trashButton.classList.add("trash-btn");
@@ -28,6 +34,7 @@ function addSm(event) {
   
   smList.appendChild(smDiv);
   smInput.value = "";
+  link.value = "";
 }
 
 function deleteCheck(e){
