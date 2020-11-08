@@ -1,3 +1,10 @@
+/*
+  Filename: dashboard.js
+  Author: Abhigyan Saxena, Xiaoyi Lu, Evelyn Thomas, Achyut Paudel, Linh Nguyen
+  Description: using dashboard.js for creating the backend 
+  Date: 11-07-2020
+  */
+
 //Selector
 const smInput = document.querySelector(".sm-input");
 const link = document.querySelector(".sm-url");
