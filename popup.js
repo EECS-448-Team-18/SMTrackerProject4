@@ -1,3 +1,10 @@
+/*
+  Filename: popup.js
+  Author: Abhigyan Saxena, Xiaoyi Lu, Evelyn Thomas, Achyut Paudel, Linh Nguyen
+  Description: using popup.js for creating the backend 
+  Date: 11-07-2020
+  */
+
 let resetStopwatch = document.getElementById("resetStopwatch");
 
 chrome.runtime.onInstalled.addListener(() => {

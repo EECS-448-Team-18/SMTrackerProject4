@@ -1,3 +1,10 @@
+/*
+  Filename: background.js
+  Author: Abhigyan Saxena, Xiaoyi Lu, Evelyn Thomas, Achyut Paudel, Linh Nguyen
+  Description: using background.js for creating the backend 
+  Date: 11-07-2020
+  */
+
 const social_media = [
   "*://*.facebook.com/",
   "*://*.hulu.com/",
