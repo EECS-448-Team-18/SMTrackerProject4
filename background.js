@@ -28,12 +28,14 @@ const setActiveTab = async () => {
     if (social_media.some((each) => each.includes(host))) {
       if (!active) {
         start();
+        // console.log("Clock works");
       }
     }
     // otherwise, stop the stopwatch
     else {
       if (active) {
         stop();
+        // console.log("Clock does not work.");
       }
     }
   }

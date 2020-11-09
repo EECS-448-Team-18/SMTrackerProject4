@@ -15,7 +15,6 @@ const smList = document.querySelector(".sm-list");
 smButton.addEventListener("click", addSm);
 smList.addEventListener("click", deleteCheck);
 
-
 //Functions
 //Add a new social media in
 function addSm(event) {
@@ -66,5 +65,6 @@ function deleteCheck(e){
     if(item.classList[0] === 'trash-btn'){
         const sm = item.parentElement;
         sm.remove();
+        console.log("Clock does not work");
     }
 }
